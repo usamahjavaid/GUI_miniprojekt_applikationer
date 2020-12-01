@@ -5,7 +5,9 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Date;
 import java.util.Random;
 
 public class Controller {
@@ -19,8 +21,10 @@ public class Controller {
     @FXML
     void kastTerning(ActionEvent event) {
 
-        int random = new Random().nextInt(6)+1;
+        Date d = new Date();
 
+        int random = new Random().nextInt(6)+1;
+        System.out.println(d.toString() + " ternings side: " + random);
         if (random == 1) {
             Image i1 = new Image("billeder/" + "terning1.png" );
 
@@ -54,7 +58,16 @@ public class Controller {
         }
 
 
+        try {
 
+            FileWriter myWriter = new FileWriter("TerningKastLog.txt");
+            myWriter.write(d.toString() + " ternings side: " + random);
+            myWriter.close();
+            System.out.println("Successfully wrote to the file.");
+        } catch (IOException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
 
 
     }
