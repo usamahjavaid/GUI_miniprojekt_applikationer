@@ -60,8 +60,8 @@ public class Controller {
 
         try {
 
-            FileWriter myWriter = new FileWriter("TerningKastLog.txt");
-            myWriter.write(d.toString() + " ternings side: " + random);
+            FileWriter myWriter = new FileWriter("TerningKastLog.txt", true);
+            myWriter.write(d.toString() + " ternings side: " + random + "\n");
             myWriter.close();
             System.out.println("Successfully wrote to the file.");
         } catch (IOException e) {
