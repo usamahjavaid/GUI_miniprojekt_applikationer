@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="342.0" prefWidth="533.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fx:id="Billede" fitHeight="240.0" fitWidth="331.0" layoutX="101.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="Roll_the_dice" layoutX="215.0" layoutY="294.0" mnemonicParsing="false" onAction="#kastTerning" text="Roll the dice" />
+   </children>
+</AnchorPane>
