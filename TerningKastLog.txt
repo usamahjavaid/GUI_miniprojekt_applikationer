@@ -21,3 +21,9 @@ Wed Dec 02 13:47:14 CET 2020 ternings side: 2
 Wed Dec 02 13:47:14 CET 2020 ternings side: 3
 Wed Dec 02 13:47:15 CET 2020 ternings side: 1
 Wed Dec 02 13:47:15 CET 2020 ternings side: 2
+Wed Dec 02 13:49:48 CET 2020 ternings side: 1
+Wed Dec 02 13:49:48 CET 2020 ternings side: 6
+Wed Dec 02 13:49:48 CET 2020 ternings side: 2
+Wed Dec 02 13:49:48 CET 2020 ternings side: 5
+Wed Dec 02 13:49:48 CET 2020 ternings side: 1
+Wed Dec 02 13:49:48 CET 2020 ternings side: 5
